@@ -364,11 +364,11 @@ public class studentIndex extends javax.swing.JFrame {
                 jLabel28.setText(rs.getString(11));
                 jLabel29.setText(rs.getString(12));
             
-                int s1 = Integer.parseInt(jLabel25.getText());
-                int s2 = Integer.parseInt(jLabel26.getText());
-                int s3 = Integer.parseInt(jLabel27.getText());
-                int s4 = Integer.parseInt(jLabel28.getText());
-                int s5 = Integer.parseInt(jLabel29.getText());
+                int s1 = Integer.parseInt(jLabel25.getText().trim());
+                int s2 = Integer.parseInt(jLabel26.getText().trim());
+                int s3 = Integer.parseInt(jLabel27.getText().trim());
+                int s4 = Integer.parseInt(jLabel28.getText().trim());
+                int s5 = Integer.parseInt(jLabel29.getText().trim());
             
                 String totalmarks = String.valueOf(s1) + String.valueOf(s2) + String.valueOf(s3) + String.valueOf(s4) + String.valueOf(s5);
                 jLabel31.setText(totalmarks);
